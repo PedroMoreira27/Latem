@@ -5,6 +5,7 @@ echo '<html lang="en">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <div class="text-center" style="margin-top: 50px;">
@@ -14,52 +15,57 @@ echo '<html lang="en">
   <div class="text-center" >
     <h1>Pessoa jurídica</h1>
   </div>
-  <div class="form-floating" style="padding-left: 20px; padding-right: 20px;">
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputRepCom" placeholder="Representante comercial">
-          <label for="InputRepCom">Representante comercial</label>
+  <form>
+    <div class="form-floating" style="padding-left: 20px; padding-right: 20px;">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputRepCom" placeholder="Representante comercial">
+            <label for="InputRepCom">Representante comercial</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputRazao" placeholder="Razão social">
+            <label for="InputRazao">Razão social</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputEmail" placeholder="name@example.com">
+            <label for="InputEmail">Email</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputCNPJ" placeholder="CNPJ">
+            <label for="InputCNPJ">CNPJ</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputNumero" placeholder="(00)00000-0000)">
+            <label for="InputNumero">Numero de celular</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputEndereco" placeholder="Password">
+            <label for="InputEndereco">Endereço</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputComple" placeholder="name@example.com">
+            <label for="InputComple">Complemento</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputCEP" placeholder="Password">
+            <label for="InputCEP">CEP</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="InputCidade" placeholder="name@example.com" >
+            <label for="InputCidade">Cidade</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="txtPassword" placeholder="Password">
+            <label for="txtPassword">Senha</label>
+        </div>
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="txtPasswordConfirmation" placeholder="name@example.com">
+            <label for="txtPasswordConfirmation">Repita a senha</label>
+        </div>
+        </div> 
+        <div class="col-auto">
+        <button type="submit" class="btn btn-primary">Submit</button>
       </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputRazao" placeholder="Razão social">
-          <label for="InputRazao">Razão social</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputEmail" placeholder="name@example.com">
-          <label for="InputEmail">Email</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputCNPJ" placeholder="CNPJ">
-          <label for="InputCNPJ">CNPJ</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputNumero" placeholder="(00)00000-0000)">
-          <label for="InputNumero">Numero de celular</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputEndereco" placeholder="Password">
-          <label for="InputEndereco">Endereço</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputComple" placeholder="name@example.com">
-          <label for="InputComple">Complemento</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputCEP" placeholder="Password">
-          <label for="InputCEP">CEP</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputCidade" placeholder="name@example.com" >
-          <label for="InputCidade">Cidade</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputSenha" placeholder="Password">
-          <label for="InputSenha">Senha</label>
-      </div>
-      <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="InputSenha2" placeholder="name@example.com">
-          <label for="InputSenha2">Repita a senha</label>
-      </div>
-  </div>
+  </form>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
